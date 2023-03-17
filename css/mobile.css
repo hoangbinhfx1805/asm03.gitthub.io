@@ -1,0 +1,64 @@
+@media screen and (max-width: 576px) {
+  header {
+    position: relative;
+    /* height: 100hv; */
+    height: 550px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.52)),
+      url(/images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  header h1 {
+    width: 320px;
+    font-size: 30px;
+  }
+  nav {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: start;
+    padding: 32px 0;
+  }
+  .nav-1 {
+    flex-basis: auto;
+  }
+  .nav-2 {
+    display: none;
+  }
+  a {
+    padding: 12px 30px;
+    border-right: none;
+    border-left: none;
+  }
+  .container3 {
+    grid-template-columns: 1fr;
+    row-gap: 32px;
+    padding: 16px;
+  }
+  .chung-chi {
+    flex-direction: column;
+    gap: 30px;
+  }
+  .chung-chi img {
+    width: 100%;
+  }
+  .cchi1 {
+    padding-left: 0px;
+    border-left: none;
+  }
+  .du-an {
+    grid-template-columns: 1fr;
+    row-gap: 30px;
+  }
+  .cchi .chung-chi {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .cchi {
+    border-bottom: none;
+  }
+  .face,
+  .linkedin,
+  .github {
+    display: none;
+  }
+}

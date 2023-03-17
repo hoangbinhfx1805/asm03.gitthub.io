@@ -1,0 +1,46 @@
+@media screen and (min-width: 576px) and (max-width: 768px) {
+  header {
+    position: relative;
+    /* height: 100hv; */
+    height: 700px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.52)),
+      url(/images/banner.jpg);
+    background-size: cover;
+    background-position: center;
+  }
+  .icon2 {
+    transform: scale(2.5);
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #adb5bd;
+  }
+  .chung-chi {
+    flex-direction: column;
+    gap: 24px;
+  }
+  .chung-chi img {
+    width: 100%;
+  }
+  .du-an {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+  }
+  .du-an-3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .time-1 {
+    grid-row: 1/2 span;
+  }
+  table th {
+    font-weight: normal;
+    width: 50px;
+  }
+  .row-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
